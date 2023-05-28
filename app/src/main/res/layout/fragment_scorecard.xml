@@ -1005,7 +1005,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Conway"
+                                    android:text="Shubman Gill"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1013,7 +1013,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="40"
+                                    android:text="42"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
@@ -1022,7 +1022,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="34" />
+                                    android:text="38" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
@@ -1036,14 +1036,14 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="0" />
+                                    android:text="1" />
 
                                 <TextView
                                     android:layout_width="@dimen/_50sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="117.65" />
+                                    android:text="110.53" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1051,7 +1051,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text="C Rashid b Shami"
+                            android:text="C Conway b D Chahar"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1085,7 +1085,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Shivam Dube"
+                                    android:text="Hardik Pandya"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1093,7 +1093,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="1"
+                                    android:text="8"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
@@ -1102,14 +1102,14 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="3" />
+                                    android:text="7" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="0" />
+                                    android:text="1" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
@@ -1123,7 +1123,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="33.33" />
+                                    android:text="114.29" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1131,7 +1131,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text=" b Noor Ahmad"
+                            android:text="C jadeja b M Theekshana"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1165,7 +1165,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Ajinkya Rahane"
+                                    android:text="Shanaka"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1174,6 +1174,164 @@
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
                                     android:text="17"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="16" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="1" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="1" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="106.25" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="@dimen/_12sdp"
+                            android:text="C M Theekshana b Jadeja"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingHorizontal="@dimen/_8sdp">
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="Miller"
+                                    android:textColor="#1132ED" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="4"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="6" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="66.67" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="@dimen/_12sdp"
+                            android:text=" b Jadeja"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingHorizontal="@dimen/_8sdp">
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="Vijay Shankar"
+                                    android:textColor="#1132ED" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="14"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
@@ -1203,7 +1361,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="170" />
+                                    android:text="140" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1211,7 +1369,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text="C Shubman Gill b Darshan Nalkande"
+                            android:text="C Gaikwad b M Pathirana"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1244,7 +1402,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Rayudu"
+                                    android:text="Rahul Tewatia"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1252,7 +1410,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="17"
+                                    android:text="3"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
@@ -1261,28 +1419,28 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="9" />
+                                    android:text="5" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="1" />
+                                    android:text="0" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="1" />
+                                    android:text="0" />
 
                                 <TextView
                                     android:layout_width="@dimen/_50sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="188.89" />
+                                    android:text="60" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1290,7 +1448,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text="C Shanaka b Rashid Khan"
+                            android:text=" b M Theekshana"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1323,7 +1481,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Ravindra Jadeja"
+                                    android:text="Rashid Khan"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1331,7 +1489,7 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="22"
+                                    android:text="25"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
 
@@ -1347,21 +1505,21 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="2" />
+                                    android:text="3" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="0" />
+                                    android:text="2" />
 
                                 <TextView
                                     android:layout_width="@dimen/_50sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="137.5" />
+                                    android:text="178.5" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1369,7 +1527,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text=" b Shami"
+                            android:text="C Conway b T Deshpande"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1402,7 +1560,7 @@
                                     android:layout_width="@dimen/_150sdp"
                                     android:layout_height="wrap_content"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="Dhoni(C-wk)"
+                                    android:text="Darshan Nalkande"
                                     android:textColor="#1132ED" />
 
                                 <TextView
@@ -1410,102 +1568,9 @@
                                     android:layout_height="wrap_content"
                                     android:gravity="center"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="1"
+                                    android:text="0"
                                     android:textColor="@color/black"
                                     android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="2" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="0" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="0" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_50sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="end"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="50" />
-
-                            </LinearLayout>
-                        </LinearLayout>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:paddingHorizontal="@dimen/_12sdp"
-                            android:text="C Hardik Pandya b Mohit Sharma"
-                            android:textSize="@dimen/_13sdp" />
-
-                    </LinearLayout>
-                    <ImageView
-                        android:layout_width="@dimen/_30sdp"
-                        android:layout_height="@dimen/_30sdp"
-                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginVertical="@dimen/_8sdp"
-                    android:orientation="horizontal">
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:orientation="vertical">
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="horizontal"
-                                android:paddingHorizontal="@dimen/_8sdp">
-
-                                <TextView
-                                    android:layout_width="@dimen/_150sdp"
-                                    android:layout_height="wrap_content"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="Moeen"
-                                    android:textColor="#1132ED" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="9"
-                                    android:textColor="@color/black"
-                                    android:textStyle="bold" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="4" />
-
-                                <TextView
-                                    android:layout_width="@dimen/_30sdp"
-                                    android:layout_height="wrap_content"
-                                    android:gravity="center"
-                                    android:padding="@dimen/_4sdp"
-                                    android:text="0" />
 
                                 <TextView
                                     android:layout_width="@dimen/_30sdp"
@@ -1515,11 +1580,25 @@
                                     android:text="1" />
 
                                 <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
                                     android:layout_width="@dimen/_50sdp"
                                     android:layout_height="wrap_content"
                                     android:gravity="end"
                                     android:padding="@dimen/_4sdp"
-                                    android:text="225" />
+                                    android:text="0" />
 
                             </LinearLayout>
                         </LinearLayout>
@@ -1527,7 +1606,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:paddingHorizontal="@dimen/_12sdp"
-                            android:text=" b Noor Ahmad"
+                            android:text="run out (sub) Senapati"
                             android:textSize="@dimen/_13sdp" />
 
                     </LinearLayout>
@@ -1536,8 +1615,232 @@
                         android:layout_height="@dimen/_30sdp"
                         android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingHorizontal="@dimen/_8sdp">
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="Noor Ahmad"
+                                    android:textColor="#1132ED" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="7"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="5" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="1" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="140" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="@dimen/_12sdp"
+                            android:text="not out"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_8sdp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingHorizontal="@dimen/_8sdp">
+
+                                <TextView
+                                    android:layout_width="@dimen/_150sdp"
+                                    android:layout_height="wrap_content"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="Shami"
+                                    android:textColor="#1132ED" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="5"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="5" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="1" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_30sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="0" />
+
+                                <TextView
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:padding="@dimen/_4sdp"
+                                    android:text="100" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="@dimen/_12sdp"
+                            android:text="C D Chahar b M Pathirana"
+                            android:textSize="@dimen/_13sdp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_12sdp"
+                        android:text="Extras"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:text="15 b 0, lb 2, w 13, nb 0, p 0"
+                        android:textSize="@dimen/_16sdp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="@dimen/_12sdp"
+                        android:text="Total"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_12sdp"
+                        android:text="157-10 (20)"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_16sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_12sdp"
+                    android:text="Did not bat"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_12sdp"
+                    android:text="Mohit Sharma"
+                    android:textSize="@dimen/_15sdp" />
 
             </LinearLayout>
+
 
         </LinearLayout>
 
