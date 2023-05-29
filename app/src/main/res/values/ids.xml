@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="linear1" type="id" />
+    <item name="team1_b" type="id" />
+    <item name="team1_n" type="id" />
+    <item name="team1_s" type="id" />
+</resources>

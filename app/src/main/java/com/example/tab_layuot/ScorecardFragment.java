@@ -1,5 +1,8 @@
 package com.example.tab_layuot;
 
+import static com.example.tab_layuot.R.id.linear1;
+
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,58 +10,84 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ScorecardFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class ScorecardFragment extends Fragment {
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+public class ScorecardFragment extends Fragment
+{
+    boolean b1 = false, b2 = false;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    LinearLayout team1, team2, linear1, linear2;
+    ImageView team1_b, team2_b;
+    TextView team1_n, team1_s, team2_n, team2_s;
 
     public ScorecardFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ScorecardFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ScorecardFragment newInstance(String param1, String param2) {
-        ScorecardFragment fragment = new ScorecardFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
-        return fragment;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
-    }
-
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_scorecard, container, false);
+        View view= inflater.inflate(R.layout.fragment_scorecard, container, false);
+
+        team1 = view.findViewById(R.id.team1);
+        team2 = view.findViewById(R.id.team2);
+        linear1 = view.findViewById(R.id.linear1);
+        linear2 = view.findViewById(R.id.linear2);
+        team1_b = view.findViewById(R.id.team1_b);
+        team2_b = view.findViewById(R.id.team2_b);
+        team1_n = view.findViewById(R.id.team1_n);
+        team2_n = view.findViewById(R.id.team2_n);
+        team1_s = view.findViewById(R.id.team1_s);
+        team2_s = view.findViewById(R.id.team2_s);
+
+        team1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (b1){
+                    b1 = false;
+                    team1.setBackgroundColor(getResources().getColor(R.color.white));
+                    team1_n.setTextColor(getResources().getColor(R.color.black));
+                    team1_s.setTextColor(getResources().getColor(R.color.black));
+                    team1_b.setImageResource(R.drawable.ic_baseline_keyboard_arrow_down_24);
+                    linear1.setVisibility(View.GONE);
+                } else {
+                    b1 = true;
+                    team1.setBackgroundColor(getResources().getColor(R.color.teal_200));
+                    team1_n.setTextColor(getResources().getColor(R.color.white));
+                    team1_s.setTextColor(getResources().getColor(R.color.white));
+                    team1_b.setImageResource(R.drawable.ic_baseline_keyboard_arrow_up_24);
+                    linear1.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        team2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (b2){
+                    b2 = false;
+                    team2.setBackgroundColor(getResources().getColor(R.color.white));
+                    team2_n.setTextColor(getResources().getColor(R.color.black));
+                    team2_s.setTextColor(getResources().getColor(R.color.black));
+                    team2_b.setImageResource(R.drawable.ic_baseline_keyboard_arrow_down_24);
+                    linear2.setVisibility(View.GONE);
+                } else {
+                    b2 = true;
+                    team2.setBackgroundColor(getResources().getColor(R.color.teal_200));
+                    team2_n.setTextColor(getResources().getColor(R.color.white));
+                    team2_s.setTextColor(getResources().getColor(R.color.white));
+                    team2_b.setImageResource(R.drawable.ic_baseline_keyboard_arrow_up_24);
+                    linear2.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
+        return view;
     }
+
 }
