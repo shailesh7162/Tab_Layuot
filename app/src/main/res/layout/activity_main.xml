@@ -8,14 +8,15 @@
     android:orientation="vertical">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:tabBackground="#28CDC8"
+        app:tabBackground="#1D9793"
         app:tabSelectedTextColor="@color/white"
         app:tabIndicatorColor="@color/white"
         app:tabTextColor="#b2e9dc"
         app:tabMode="scrollable"
-        android:id="@+id/tab"/>
+       />
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"

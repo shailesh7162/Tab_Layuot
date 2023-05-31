@@ -21,10 +21,12 @@ public class MainActivity extends AppCompatActivity
         pager=findViewById(R.id.pager);
 
         adapter=new View_pager_Adapter(getSupportFragmentManager());
-        adapter.addFragment(new InfoFragment(), "Info");
+        adapter.addFragment(new infoFragment(), "info");
         adapter.addFragment(new LiveFragment(), "Live");
         adapter.addFragment(new ScorecardFragment(), "Scorecard");
         adapter.addFragment(new SquadsFragment(), "Squads");
+        pager.setAdapter(adapter);
+        tab.setupWithViewPager(pager);
 
     }
 }
